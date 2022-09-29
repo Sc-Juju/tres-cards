@@ -1,0 +1,18 @@
+.tres-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1em;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 6px;
+    display:grid;
+    grid-template-columns:.5fr 1.5fr;
+    grid-template-rows:.8fr .2fr;
+}
+img{
+    height:60px;
+}
+.arrow{
+    height: 20px;
+}
