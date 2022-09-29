@@ -1,16 +1,11 @@
 .tres-cards{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:1em;
 }
 .card{
     border: 1px solid black;
     border-radius: 6px;
-    display:inline-flex;
 }
-img{
+.card-image{
     height:60px;
-}
-.arrow{
-    height: 20px;
 }
